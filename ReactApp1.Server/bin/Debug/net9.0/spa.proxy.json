@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:59747",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "E:\\Teste tecnico\\ReactApp1\\ReactApp1.Server\\..\\reactapp1.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

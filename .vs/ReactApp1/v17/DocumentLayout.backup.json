@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Teste tecnico\\ReactApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{372AB1E8-7CBB-9DB4-7313-847C4133320E}|reactapp1.client\\reactapp1.client.esproj|e:\\teste tecnico\\reactapp1\\reactapp1.client\\src\\cadastroform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{372AB1E8-7CBB-9DB4-7313-847C4133320E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\cadastroform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372AB1E8-7CBB-9DB4-7313-847C4133320E}|reactapp1.client\\reactapp1.client.esproj|e:\\teste tecnico\\reactapp1\\reactapp1.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{372AB1E8-7CBB-9DB4-7313-847C4133320E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{372AB1E8-7CBB-9DB4-7313-847C4133320E}|reactapp1.client\\reactapp1.client.esproj|e:\\teste tecnico\\reactapp1\\reactapp1.client\\src\\telaconfirmacao.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{372AB1E8-7CBB-9DB4-7313-847C4133320E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\telaconfirmacao.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.css",
+              "DocumentMoniker": "E:\\Teste tecnico\\ReactApp1\\reactapp1.client\\src\\App.css",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\App.css",
+              "ToolTip": "E:\\Teste tecnico\\ReactApp1\\reactapp1.client\\src\\App.css",
+              "RelativeToolTip": "reactapp1.client\\src\\App.css",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-05T13:26:50.782Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TelaConfirmacao.jsx",
+              "DocumentMoniker": "E:\\Teste tecnico\\ReactApp1\\reactapp1.client\\src\\TelaConfirmacao.jsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\TelaConfirmacao.jsx",
+              "ToolTip": "E:\\Teste tecnico\\ReactApp1\\reactapp1.client\\src\\TelaConfirmacao.jsx",
+              "RelativeToolTip": "reactapp1.client\\src\\TelaConfirmacao.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-05T18:05:23.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CadastroForm.jsx",
+              "DocumentMoniker": "E:\\Teste tecnico\\ReactApp1\\reactapp1.client\\src\\CadastroForm.jsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\CadastroForm.jsx",
+              "ToolTip": "E:\\Teste tecnico\\ReactApp1\\reactapp1.client\\src\\CadastroForm.jsx",
+              "RelativeToolTip": "reactapp1.client\\src\\CadastroForm.jsx",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowFkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-05T13:39:31.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+﻿*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+
+body{
+    background-color: #092456;
+    min-height: 100vh;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-principal{
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 1100px;
+    width: 95%;
+    margin: auto;
+    color: #FFFFFF;
+    display: flex;
+    gap: 40px;
+
+    position: relative;
+    overflow: hidden;
+    
+
+   /* box-shadow: 
+        inset 0 0 50px rgba(78, 114, 255, 0.4),
+        inset 0 0 100px rgba(22, 92, 222, 0.1);*/
+}
+
+.card-principal::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #165CDE; 
+    z-index: 2;
+    opacity: 0.2;
+    filter: blur(40px); 
+    }
+
+.principal-texto{
+    flex-basis: 45%;
+    max-width: 50%;
+    padding:20px 0;
+}
+
+.principal-texto h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.intro-texto {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+.beneficios {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.beneficio {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.checkmark-icon{
+    color: #165CDE;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.subscription-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscription-form label{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-field{
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.submit-button{
+    padding:15px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #165CDE;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover:not(:disabled){
+    background-color: #0056b3;
+}
+
+.principal-image-container{
+    
+    
+    flex-shrink: 0;
+    flex-basis: 50%;
+    max-width: 50%;
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+}
+
+.ilustracao-principal{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom:70px;
+    position: relative;
+    z-index: 2;
+}
+
+.logo-info{
+    text-align:center;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    position: absolute;
+    z-index:4;
+    bottom: 70px;
+    
+}
+
+.mindtech-logo-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.mindtech-logo-subtext{
+    font-size: 10px;
+    color: #CADDFF;
+}
+
+.unsubscribe-promt{
+    display: inline-block;
+    marginn-left: 10px;
+}
+
+.unsubscribe-button{
+    background: none;
+    border: none;
+    color: #165CDE;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+
+.feedback-message.error{
+    color: #ff4d4d;
+}
+
+@media (max-width: 955px){
+    .card-principal{
+        flex-direction: column;
+        max-width: 500px;
+    }
+    .principal-texto, .principal-image-container{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .principal-image-container{
+        display: none;
+    }
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+
+
+.confirmation-card{
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*text-align: left;*/
+    max-width: 500px;
+    width: 90%;
+}
+
+.confirmation-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    z-index: 3;
+}
+
+
+.success-icon{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.confirmation-content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.confirmation-message{
+    line-height: 1.5;
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.success-icon-wrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logo-mindtech{
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+.confirmation-logo-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
