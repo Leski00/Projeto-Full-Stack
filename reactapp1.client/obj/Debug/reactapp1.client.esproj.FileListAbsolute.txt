@@ -1,1 +1,2 @@
 E:\Teste tecnico\ReactApp1\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
+E:\Teste Full Stack\ReactApp1\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache

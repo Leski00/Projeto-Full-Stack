@@ -37,15 +37,15 @@ O Backend é responsável pela persistência de dados (usando SQLite) e pela ló
     ```
 
 3.  Aplicar Migrações (Criar/Atualizar o Banco de Dados):
-
+    ```bash
     dotnet ef database update
-
+    ```
 
 4.  Iniciar a API:
     É importante que o Back-end esteja rodando na porta correta (5158) para que o Front-end possa se conectar.
-    
+    ```bash
     dotnet run
-    
+    ```
     * Mantenha este terminal aberto (escutando na porta HTTP 5158).
 
 ### 3. Configurar e Iniciar o Frontend (React)
@@ -55,14 +55,14 @@ O Front-end utiliza o Proxy do Vite para se comunicar com a API C# (porta 5158),
 1.  Abra o Terminal no Frontend: No Visual Studio, clique com o botão direito no projeto `ReactApp1.Client` e selecione Abrir em Terminal.
 
 2.  Instalar Dependências:
-    
+    ```bash
     npm install
-    
+    ```
 
 3.  Iniciar a Aplicação React:
-    
+    ```bash
     npm run dev
-    
+    ```
     * O navegador será aberto automaticamente (geralmente em http://localhost:5173/).
 
 ---
@@ -70,7 +70,7 @@ O Front-end utiliza o Proxy do Vite para se comunicar com a API C# (porta 5158),
 ### 4.Com tudo instalado
 
 1.  rode o comando no console do BackEnd:
-
+    ```bash
     dotenet run
- 
+    ```
     * Aguarde o servidor BackEnd iniciar ele automaticamente vai iniciar o FrontEnd e com isso você poderá acessar pelo caminho: http://localhost:5173.
